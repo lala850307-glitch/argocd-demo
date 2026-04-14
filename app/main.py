@@ -7,5 +7,5 @@ app = FastAPI()
 def home():
     return {
         "version": os.getenv("APP_VERSION", "v4.0"),
-        "status": "這是我的第7個 ArgoCD Demo！",
+        "status": "這是我的第8個 ArgoCD Demo！",
     }
